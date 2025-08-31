@@ -10,12 +10,14 @@ A compact STM32H745-based dash concept for an LCD‑driven vehicle interface. Th
 
 ## Documents (in this repo)
 
-Direct links to the PDFs committed to the repository:
+Direct links with short descriptions:
 
-- **Dash Concept Summary** → [Dash_Concept_Summary_Rev0_1_v8.pdf](./Dash_Concept_Summary_Rev0_1_v8.pdf)
-- **Schematics** → [Schematics.pdf](./Schematics.pdf)
-- **Design Breakdown** → [Design Breakdown.pdf](./Design%20Breakdown.pdf)
-- **CubeMX Report** → [DashCubeMX.pdf](./DashCubeMX.pdf)
+- **Dash Concept Summary** → [Dash_Concept_Summary_Rev0_1.pdf](./Dash_Concept_Summary_Rev0_1.pdf) — condensed overview of the concept (Rev 0.1), interfaces, LCD details, RF notes, and expansion paths.
+- **Schematics** → [Schematics.pdf](./Schematics.pdf) — electrical design: power (12 V → 3.3 V buck and decoupling), MCU pinout, FMC LCD connector, ST‑LINK/JTAG, CAN/USART, and RF (CC2500 with 26 MHz crystal and matching network).
+- **Design Breakdown** → [Design Breakdown.pdf](./Design%20Breakdown.pdf) — manufacturing‑oriented summary: board dimensions, 4‑layer stackup with target impedances, layer previews (Top/Bottom/L1–L4), BOM snapshot, and drill table.
+- **CubeMX Report** → [DashCubeMX.pdf](./DashCubeMX.pdf) — STM32CubeMX configuration: MCU selection and package, pin assignments (FMC NE3/A8, USART6, SPI1, FDCAN1), clock tree, and initial FMC timings.
+
+---
 
 ## Highlights
 
